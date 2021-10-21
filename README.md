@@ -11,12 +11,19 @@ petfinder.my는 2008년 설립된 말레이시아의 유기동물 입양 관련 
 
 실습한 내용은 다음과 같으며, 참고한 커널은 각각의 파일에 기재하였다.
 
+
 1. 시각화 EDA
 * image 파일 데이터 불러오기 및 메타데이터와 image파일을 이용한 시각화 연습
 * ravel() 과 flatten()의 차이 학습
+
 
 2. 메타 데이터를 이용한 LGBM모델 구현
 * 연속형 타겟변수의 분포가 bimodal 및 multimodal 경우의 데이터 분할 방법
 * functools 사용하여 파생함수 연동 가능
 * np.vstack, np.hstack 및 reshape를 이용한 데이터 재배열 연습
 * optuna 이용, lgbm모델 하이퍼 파라미터 튜닝
+
+
+### 향후 목표
+* xgboost
+* 딥러닝 공부 후 swin transformer까지 적용하여 rmse를 17~18 수준으로 개선
