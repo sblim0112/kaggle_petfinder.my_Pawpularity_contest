@@ -24,6 +24,6 @@ petfinder.my는 2008년 설립된 말레이시아의 유기동물 입양 관련 
 * optuna 이용, lgbm모델 하이퍼 파라미터 튜닝
 
 
-### 향후 목표
-* xgboost
+### 향후 
+* xgboost, catboost 등 다른 모델도 optuna 이용한 하이퍼파라미터 튜닝 구현해보기
 * 딥러닝 공부 후 swin transformer까지 적용하여 rmse를 17~18 수준으로 개선
